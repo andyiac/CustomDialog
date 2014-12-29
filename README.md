@@ -1,4 +1,4 @@
-# CustomDialog
+# CustomDialog && android xml shap
 
 custom dialog location in the window
 
