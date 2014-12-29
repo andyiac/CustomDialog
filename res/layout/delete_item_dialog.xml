@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#00000000"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="30dip">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:background="#ffffff"
+            android:textColor="@android:color/black"
+            android:text="To be deleted"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1.3dp"
+            android:background="#FF7F00"/>
+
+    <Button
+            android:id="@+id/id_dialog_btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_bg"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:text="delete"
+            android:textSize="16sp"/>
+
+</LinearLayout>
